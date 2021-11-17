@@ -1,4 +1,8 @@
-package li.ijse.dep7.annotations;
+package li.ijse.dep7;
+
+import li.ijse.dep7.annotations.Column;
+import li.ijse.dep7.annotations.Id;
+import li.ijse.dep7.annotations.Table;
 
 @Table("customer")
 public class Customer {
@@ -9,4 +13,5 @@ public class Customer {
     private String name;
     @Column("order_id")
     private String order_id;
+
 }

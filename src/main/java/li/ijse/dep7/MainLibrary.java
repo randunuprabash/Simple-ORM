@@ -43,7 +43,7 @@ public class MainLibrary {
     static void createTable(String tblName,String id,List<String> column) throws SQLException, ClassNotFoundException {
 //        Class.forName("com.mysql.jdbc.Driver");
         Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/dep7_simple_orm",
-                "root", "Prabash@123");
+                "", "");
       Statement statement = connection.createStatement();
       String stm="CREATE TABLE "+tblName+"(\n" +
               "    "+id+" VARCHAR(5) NOT NULL PRIMARY KEY ,\n"+"    ";

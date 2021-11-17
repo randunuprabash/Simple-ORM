@@ -1,7 +1,5 @@
 package li.ijse.dep7;
 
-import li.ijse.dep7.annotations.Customer;
-
 import java.sql.SQLException;
 
 public class CreateTable {
